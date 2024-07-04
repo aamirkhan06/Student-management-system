@@ -5,7 +5,12 @@
     box-sizing: border-box;
     background-color: #cdcdcd;
 }
-
+#heading
+{
+    color: white;
+    padding: 10px 30px;
+    background-color: black;
+}
 table
 {
     width:100%;

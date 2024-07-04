@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <!-- search functionaltity -->
+     <section id="search">
+        <input type="text" id="searchBar" value="">
+        <button id="searchBtn" onclick="search()">Search</button>
+    </section>
+
+    <!-- sort buttons -->
+    <section id="buttons">
+        <button class="sort" onclick="sortAToZ()">Sort A->Z</button>
+        <button class="sort" onclick="sortZToA()">Sort Z->A</button>
+        <button class="sort" onclick="sortByMarks()">Sort by Marks</button>
+        <button class="sort" onclick="sortByPassing()">Sort by Passing</button>
+        <button class="sort" onclick="sortByClass()">Sort by Class</button>
+        <button class="sort" onclick="sortByGender()">Sort by Gender</button>
+    </section>
+    <table>
+      <thead>
+        <!-- <tr>
+                <th>heading</th>
+            </tr> -->
+      </thead>
+      <tbody>
+        <!-- <tr>
+            <td colspan="7">Gender</td>
+        </tr> -->
+        <!-- <tr>
+          <td class="Id">1</td>
+          <td class="Name">
+            <img height=30px src="https://robohash.org/corporisquiaperiam.png?size=50x50&set=set1">
+            Chadwick Ayre</td>
+          <td class="Gender">Male</td>
+          <td class="Class">11</td>
+          <td class="Marks">18</td>
+          <td class="Passing">false</td>
+          <td class="Email">cayre0@cam.ac.uk</td>
+        </tr> -->
+      </tbody>
+    </table>
+
+    
+    <script src="./script.js"></script>
+  </body>
+</html>

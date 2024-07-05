@@ -7,35 +7,37 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-
     <!-- heading -->
-     <h1 id="heading">Student Portal</h1>
+    <h1 id="heading">Student Portal</h1>
     <!-- search functionaltity -->
-     <section id="search">
-        <input type="text" id="searchBar" value="">
-        <button id="searchBtn" onclick="search()">Search</button>
+    <section id="search">
+      <input type="text" id="searchBar" value="" />
+      <button id="searchBtn" onclick="search()">Search</button>
     </section>
 
     <!-- sort buttons -->
     <section id="buttons">
-        <button class="sort" onclick="sortAToZ()">Sort A->Z</button>
-        <button class="sort" onclick="sortZToA()">Sort Z->A</button>
-        <button class="sort" onclick="sortByMarks()">Sort by Marks</button>
-        <button class="sort" onclick="sortByPassing()">Sort by Passing</button>
-        <button class="sort" onclick="sortByClass()">Sort by Class</button>
-        <button class="sort" onclick="sortByGender()">Sort by Gender</button>
+      <button class="sort" onclick="sortAToZ()">Sort A->Z</button>
+      <button class="sort" onclick="sortZToA()">Sort Z->A</button>
+      <button class="sort" onclick="sortByMarks()">Sort by Marks</button>
+      <button class="sort" onclick="sortByPassing()">Sort by Passing</button>
+      <button class="sort" onclick="sortByClass()">Sort by Class</button>
+      <button class="sort" onclick="sortByGender()">Sort by Gender</button>
     </section>
-    <table>
-      <thead>
-        <!-- <tr>
+
+    <!-- table section -->
+    <section id="table">
+      <table>
+        <thead>
+          <!-- <tr>
                 <th>heading</th>
             </tr> -->
-      </thead>
-      <tbody>
-        <!-- <tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
             <td colspan="7">Gender</td>
         </tr> -->
-        <!-- <tr>
+          <!-- <tr>
           <td class="Id">1</td>
           <td class="Name">
             <img height=30px src="https://robohash.org/corporisquiaperiam.png?size=50x50&set=set1">
@@ -46,10 +48,10 @@
           <td class="Passing">false</td>
           <td class="Email">cayre0@cam.ac.uk</td>
         </tr> -->
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </section>
 
-    
     <script src="./script.js"></script>
   </body>
 </html>

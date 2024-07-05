@@ -16,6 +16,11 @@ table
     width:100%;
     font-size: 20px;
 }
+#table
+{
+    overflow: hidden;
+    overflow-x: scroll;
+}
 th,td{
     border:1px solid rgb(165, 157, 157);
     padding: 10px 20px;

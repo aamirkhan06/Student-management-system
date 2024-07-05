@@ -27,6 +27,12 @@ th,td{
     background-color: white;
 }
 
+.Name
+{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
 #buttons
 {
     width: 100%;
